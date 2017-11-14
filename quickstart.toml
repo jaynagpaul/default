@@ -3,9 +3,15 @@
 # Refer to https://github.com/jaynagpaul/qs/wiki/quickstart.toml
 # for detailed Gopkg.toml documentation.
 
-name = "License - Choose A License"
+name = "Default QS Templates"
 
 [[template]]
-  TemplateFolder = "./quickstart" # This is not asked to the user.
+  TemplateFolder = "./license-qs" # This is not asked to the user.
   TemplateName = "License"    # This is not asked to the user.
   License = ["MIT", "Apache", "Creative Commons"]
+
+[[template]]
+  TemplateFolder = "./gitignore-qs" # This is not asked to the user.
+  TemplateName = "Gitignore"    # This is not asked to the user.
+  License = ["Go", "Javascript", "Python"]
+  
