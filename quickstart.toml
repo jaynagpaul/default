@@ -1,0 +1,12 @@
+# quickstart.toml example
+#
+# Refer to https://github.com/jaynagpaul/qs/wiki/quickstart.toml
+# for detailed Gopkg.toml documentation.
+
+name = "License - Choose A License"
+
+[[template]]
+TemplateFolder = "./quickstart" # This is not asked to the user.
+TemplateName = "License"    # This is not asked to the user.
+
+License = ["MIT", "Apache", "Creative Commons"]
