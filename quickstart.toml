@@ -6,7 +6,6 @@
 name = "License - Choose A License"
 
 [[template]]
-TemplateFolder = "./quickstart" # This is not asked to the user.
-TemplateName = "License"    # This is not asked to the user.
-
-License = ["MIT", "Apache", "Creative Commons"]
+  TemplateFolder = "./quickstart" # This is not asked to the user.
+  TemplateName = "License"    # This is not asked to the user.
+  License = ["MIT", "Apache", "Creative Commons"]
