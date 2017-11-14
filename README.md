@@ -1,0 +1,2 @@
+# license
+⚡ QS License Generator
